@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>AI CV Screening</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 40px;
+        }
+
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #444;
+        }
+
+        button {
+            background-color: #0077cc;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #005fa3;
+        }
+
+        ul {
+            background: #f0f8ff;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI CV Screening</h1>
+
+        <form method="POST" enctype="multipart/form-data">
+
+            <input type="file" name="cv" required>
+
+            <button type="submit">Upload CV</button>
+
+        </form>
+
+        <h2>Detected Skills:</h2>
+        <h2>CV Match Score: {{ score }}%</h2>
+
+        <ul>
+            {% for skill in skills %}
+                <li>{{ skill }}</li>
+            {% endfor %}
+        </ul>
+
+        <h2>Extracted Text:</h2>
+
+        <p>{{ text }}</p>
+
+    </div>
+
+</body>
+
+</html>
