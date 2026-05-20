@@ -148,7 +148,6 @@ One of the biggest lessons during this project was learning how important debugg
 
 Some challenges I faced included:
 
-* Flask pages not loading because files were not saved correctly
 * GitHub authentication errors caused by password authentication deprecation
 * Understanding the difference between tracked and untracked Git files
 * Learning how Git staging, commits, and pushes work together
