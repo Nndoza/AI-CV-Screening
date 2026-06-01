@@ -173,6 +173,6 @@ Some future improvements I would like to implement include:
 
 ## Conclusion
 
-This project helped me gain practical experience in backend development, Linux workflows, Git version control, debugging, and cloud architecture thinking.
+This project is still in progress but so far helped me gain practical experience in backend development, Linux workflows, Git version control, debugging, and cloud architecture thinking.
 
 Although CV screening systems already exist in the real world, this project was built to demonstrate my ability to design and build a working solution that solves a real business problem using modern development tools and cloud-focused concepts.
