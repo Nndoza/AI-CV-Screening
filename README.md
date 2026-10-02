@@ -4,7 +4,7 @@
 
 This project focuses on building an AI-powered CV screening system using Python and Flask. The application allows recruiters or hiring teams to upload CVs in PDF format, extract candidate information, detect technical skills, and calculate a CV match score based on predefined skills.
 
-The project was built as part of my cloud, backend, and learning journey to strengthen my understanding of Linux, Git, GitHub, Python backend development, and AWS architecture concepts.
+The project was built as part of my cloud, backend, and AWS learning journey to strengthen my understanding of Linux, Git, GitHub, Python backend development, and AWS architecture concepts.
 
 ---
 
